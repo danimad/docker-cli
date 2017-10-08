@@ -1,8 +1,14 @@
 # Docker environment for various CLI tools
 
-## INFO
+## Info
 
 The Docker image is based on  Jeroen Janssens' [Data Science at the Command Line Docker image.][ds-cli]
+
+## Usage
+
+    docker build -t <container-name> .
+
+    docker run -t -i <container-name> /bin/zsh
 
 ## License
 
